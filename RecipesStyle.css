@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.NavBar{
+    position: fixed;    
+    top: 0;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+.logo img{
+    height: 100%;   
+}   
+.NavList{
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.NavList li{
+    width: 100px;
+    text-align: center;
+    font-family: Helvetica,sans-serif;
+} 
+.NavList li a, .button a input{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}  
+.button{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: auto;
+}
+.button a input{
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.MenuTypes{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+.MenuList{
+    font-size: large;
+    line-height: 30px;
+}
+.MenuList li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: large;
+    opacity: 80%;
+}
+.MenuImages{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ImgDiv{
+    width:500px;
+    text-align: center;
+    padding: 15px;
+}
+.MenuImages img{
+    width: 450px;
+    height: 250px;
+    margin: 15px 15px 0px 15px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+h3, .ImgDiv p{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.ImgDiv p{
+    opacity: 80%;
+}
+footer{
+    margin-top: 50px;
+}
+footer div{
+    font-size: larger;
+    height: 80px;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer div span{
+    color: blueviolet;
+}
+.ImgDiv:hover img{
+    opacity: 60%;
+}
