@@ -9,6 +9,7 @@ body{
     height: 100px;
     width: 100%;
     background-color: white;
+    z-index: 515;
 }
 .logo img{
     height: 100%;
